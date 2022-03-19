@@ -11,13 +11,13 @@
 	<p> ध्यान दें कि संदेश के उत्तर के लिए आपको कुछ समय इंतजार करना होगा </p>
 	<!-- Messenger के साथ शुरुआत करना: वर्शन 1 2022 में है -->
 	<p>
-	  <center>टेक्स्ट सबमिशन सेक्शन : <input type="text" placeholder="जमा करें"="" required /><button onclick="MyRandom();">क्लिक</button>
+	  <center>टेक्स्ट सबमिशन सेक्शन : <input type="text" placeholder="जमा करें"="" required /><button onclick="MyRandom();" width="200" height="100">क्लिक</button>
 <h2 id="Result"></h2>
-
+<H3>
 <script>
 
 function MyRandom(){
- var Daneshjoo = ['नमस्ते', 'क्या तुम ठीक हो', 'ये वक़्त क्या है? आप कहां के रहने वाले हैं?', 'लड़की या लड़का?', 'यह बहुत अच्छा था। शुक्रिया',];
+ var Daneshjoo = ['<H3>','<h3>नमस्ते</h3>', '<h3>क्या तुम ठीक हो</h3>', '<h3>ये वक़्त क्या है? आप कहां के रहने वाले हैं?</h3>', '<h3>लड़की या लड़का?</h3>', '<h3>यह बहुत अच्छा था। शुक्रिया</h3>', '</H3>'];
  var RandomString = Math.floor(Math.random() * Daneshjoo.length);
  var result = document.getElementById("Result");
  result.innerHTML = Daneshjoo[RandomString];
@@ -25,6 +25,11 @@ function MyRandom(){
 
 </script>
 	  </center>
+	  <!-- Finnish text -->
+	  <p>इस ऐप को सीधे जीथब पर लाने में मेरी मदद करें </p>
+	  <p>
+	    और शाखाओं में (Django - PHP - JS - डेटाबेस - Linux प्रबंधन और C (प्रोग्रामिंग भाषा) -) Github पता:<a href="https://github.com/Am2021Html/hindi-chatweb---Hendura-/blob/main/code.html"> Github </a>
+	  </p>
 	</p>
   </body>
 </html>
@@ -32,4 +37,7 @@ function MyRandom(){
   body{
     background: #f8f8f8
   }
+       h3{ font-size: 30px }
+       h3{ color:red }
+       h3{ background: orange }
 </style>
