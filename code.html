@@ -1,0 +1,35 @@
+
+<html>
+  <head>
+    <title> Forum chat Hindi  -- हेडुरा सोशल नेटवर्क </title>
+  </head>
+  <body>
+    <h2><center> स्वागत हे </center></h2>
+	<br />
+	<!-- निजी - पूरे एन्क्रिप्टेड -->
+	<p>यह ऐप वर्तमान में डेमो संस्करण है। और हम नेटवर्क बनाना चाहते हैं।</p>
+	<p> ध्यान दें कि संदेश के उत्तर के लिए आपको कुछ समय इंतजार करना होगा </p>
+	<!-- Messenger के साथ शुरुआत करना: वर्शन 1 2022 में है -->
+	<p>
+	  <center>टेक्स्ट सबमिशन सेक्शन : <input type="text" placeholder="जमा करें"="" required /><button onclick="MyRandom();">क्लिक</button>
+<h2 id="Result"></h2>
+
+<script>
+
+function MyRandom(){
+ var Daneshjoo = ['नमस्ते', 'क्या तुम ठीक हो', 'ये वक़्त क्या है? आप कहां के रहने वाले हैं?', 'लड़की या लड़का?', 'यह बहुत अच्छा था। शुक्रिया',];
+ var RandomString = Math.floor(Math.random() * Daneshjoo.length);
+ var result = document.getElementById("Result");
+ result.innerHTML = Daneshjoo[RandomString];
+}
+
+</script>
+	  </center>
+	</p>
+  </body>
+</html>
+<style>
+  body{
+    background: #f8f8f8
+  }
+</style>
